@@ -1,0 +1,11 @@
+/node_modules/
+/.idea/.gitignore
+/.idea/discord.xml
+/.idea/modules.xml
+/.idea/Section -1 Getting Started.iml
+/.idea/vcs.xml
+/app.js
+/app.ts
+/index.html
+/package.json
+/package-lock.json

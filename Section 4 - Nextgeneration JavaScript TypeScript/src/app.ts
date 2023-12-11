@@ -1,1 +1,1 @@
-console.log("Time to get");
+console.log("nothing to learn here T-T");

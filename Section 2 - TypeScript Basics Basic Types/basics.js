@@ -11,4 +11,5 @@ var number1 = 5;
 var number2 = 2;
 var printResult = true;
 var resultPhrase = 'the result is ';
+
 console.log(add(number1, number2, printResult, resultPhrase));

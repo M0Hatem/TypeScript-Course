@@ -1,15 +1,15 @@
-function add(num1: number, num2:number,showResult: boolean,phrase:string){
-    const result = num1+num2;
-    if (showResult){
-        console.log(phrase+result);
-    }else {
-        return num1 + num2;
-    }
+let userInput: unknown;
+let userName: string;
+
+userInput = 5;
+userInput = 'Max';
+if (typeof userInput === 'string') {
+  userName = userInput;
 }
 
-const number1= 5;
-const number2 = 2;
-const printResult = true;
-const resultPhrase = 'the result is '
+function generateError(message: string, code: number): never {
+  throw { message: message, errorCode: code };
+  // while (true) {}
+}
 
-add(number1,number2,printResult,resultPhrase)
+generateError('An error occurred!', 500);
